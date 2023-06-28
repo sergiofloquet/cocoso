@@ -30,10 +30,17 @@ citation(package = "cocosoR")
 #use_test()
 #cocoso(example_cocoso)
 
-###  Subindo para o GitHub
+###  Construindo Manual
+#build_manual()
 
-use_citation()
-install_github(repo = "sergiofloquet/cocosoR")
+
+###  Construindo o Readme
+use_readme_rmd()
+build_readme()
+
+###  Subindo para o GitHub
+#use_citation()
+#install_github(repo = "sergiofloquet/cocosoR", subdir = )
 
 
 #waspasR()
