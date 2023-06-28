@@ -1,0 +1,49 @@
+---
+title: "Introduction to CoCoSo Method"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to CoCoSo Method}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+
+library(rmarkdown) ; library(knitr)
+```
+
+```{r setup}
+library(cocosoR)
+```
+
+## CoCoSo Method
+
+This package is an implementation of the Combined Compromise Solution (CoCoSo) Method [1] based on an integrated simple additive weighting and compromise exponentially weighted product model. We can use the data from [1] as example:
+
+
+```{r, include=T, message = FALSE, warning = FALSE}
+data(example_cocoso)
+paged_table(example_cocoso, options = list(rows.print = 10, rownames.print = FALSE) ) 
+```
+
+CoCoSo method can be apply making the final ranking of all alternatives. 
+
+```{r, include=T, message = FALSE, warning = FALSE}
+
+result<- cocoso(example_cocoso)
+paged_table(result, options = list(rows.print = 10, rownames.print = FALSE) ) 
+```
+
+
+In addition we present in results all three aggregation strategies and the sum and product weight, used in [1].
+
+
+
+
+## References:
+
+[1] Yazdani, M., Zarate, P., Kazimieras Zavadskas, E., & Turskis, Z. (2019). A combined compromise solution (CoCoSo) method for multi-criteria decision-making problems. Management Decision, 57(9), 2501-2519.
