@@ -1,3 +1,0 @@
-####  Skectch of Package
-
-
