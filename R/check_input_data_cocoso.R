@@ -2,12 +2,13 @@
 #'
 #' @param md_data Must be a data frame with information about Criteria, Alternatives and Optimal Value. See example_cocoso.
 #'
-#' @usage check_input_data_cocoso(md_data = example_cocoso)
+#' @usage check_input_data_cocoso(md_data)
 #'
 #' @return True if the dataset is correctly formatted and False otherwise.
 #' @export
 #'
-#' @examples check_input_data_cocoso(md_data = example_cocoso)
+#' @examples data(example_cocoso)
+#' check_input_data_cocoso(example_cocoso)
 
 check_input_data_cocoso<- function(md_data){
 

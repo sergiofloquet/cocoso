@@ -4,7 +4,7 @@
 \alias{check_input_data_cocoso}
 \title{Verify if the dataset to be submitted to cocoso function is correctly formatted.}
 \usage{
-check_input_data_cocoso(md_data = example_cocoso)
+check_input_data_cocoso(md_data)
 }
 \arguments{
 \item{md_data}{Must be a data frame with information about Criteria, Alternatives and Optimal Value. See example_cocoso.}
@@ -16,5 +16,6 @@ True if the dataset is correctly formatted and False otherwise.
 Verify if the dataset to be submitted to cocoso function is correctly formatted.
 }
 \examples{
-check_input_data_cocoso(md_data = example_cocoso)
+data(example_cocoso)
+check_input_data_cocoso(example_cocoso)
 }

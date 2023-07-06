@@ -1,14 +1,15 @@
 Package: cocosoR
-Title: Implementation of CoCoSo (Combined Compromise Solution) method that it a combined compromise decision-making algorithm.
+Title: CoCoSo - Combined Compromise Solution Method for MCDA
 Version: 0.1.0
 Authors@R: c(
-    person("Sergio", "Floquet", , "sergiofloquet@hotmail.com", role = c("aut"),
+    person("Sergio", "Floquet", , "sergiofloquet@hotmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-7998-350X")) ,
-    person("Marcos", "Santos", , "marcosdossantos_doutorado_uff@yahoo.com.br", role = c("aut", "cre"),
+    person("Marcos", "Santos", , "marcosdossantos_doutorado_uff@yahoo.com.br", role = c("aut"),
            comment = c(ORCID = "0000-0003-1533-5535")) )
-Description: This program is an implementation of the Combined Compromise Solution (CoCoSo) Method (A combined compromise solution (CoCoSo) method for multi-criteria decision-making problems, Yazdani, M., Zarate, P., Kazimieras Zavadskas, E., & Turskis, Z. (2019), <https://doi.org/10.1108/MD-05-2017-0458> ) based on an integrated simple additive weighting and compromise exponentially weighted product model.
-License: GPL (>= 2)
+Description: Provides a set of functions to implement the Combined Compromise Solution (CoCoSo) Method created by Yazdani, Zarate, Zavadskas and Turskis (2019) <doi:10.1108/MD-05-2017-0458>. This method is based on an integrated simple additive weighting and compromise exponentially weighted product model.
+License: GPL (>= 3)
 Encoding: UTF-8
+Language: en-US
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 Depends: 
@@ -20,4 +21,4 @@ Suggests:
     testthat (>= 3.0.0)
 VignetteBuilder: knitr
 Config/testthat/edition: 3
-Year: 2023
+

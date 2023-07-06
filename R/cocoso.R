@@ -3,12 +3,13 @@
 #' @param md_data Must be a data frame with information about Criteria, Alternatives and Optimal Value. See example_cocoso.
 #' @param parameter_alpha Parameter for third aggregation strategies.
 #'
-#' @usage cocoso(example_cocoso, parameter_alpha = 0.5)
+#' @usage cocoso(md_data, parameter_alpha = 0.5)
 #'
 #' @return Final ranking of all alternatives from CoCoSo method. In addition, we compute and present all three aggregation strategies.
 #' @export
 #'
-#' @examples cocoso(example_cocoso)
+#' @examples data(example_cocoso)
+#' cocoso(example_cocoso)
 #'
 
 cocoso<-function(md_data, parameter_alpha = 0.5){

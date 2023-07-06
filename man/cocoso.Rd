@@ -4,7 +4,7 @@
 \alias{cocoso}
 \title{Implementation of CoCoSo Method}
 \usage{
-cocoso(example_cocoso, parameter_alpha = 0.5)
+cocoso(md_data, parameter_alpha = 0.5)
 }
 \arguments{
 \item{md_data}{Must be a data frame with information about Criteria, Alternatives and Optimal Value. See example_cocoso.}
@@ -18,6 +18,7 @@ Final ranking of all alternatives from CoCoSo method. In addition, we compute an
 Implementation of CoCoSo Method
 }
 \examples{
+data(example_cocoso)
 cocoso(example_cocoso)
 
 }

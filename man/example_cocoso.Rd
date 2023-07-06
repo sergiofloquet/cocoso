@@ -8,7 +8,7 @@
 A data frame with 10 rows and 6 columns.
 }
 \source{
-{Extract in "A combined compromise solution (CoCoSo) method for multi-criteria decision-making problems", Yazdani, M., Zarate, P., Kazimieras Zavadskas, E., & Turskis, Z. (2019), \url{https://doi.org/10.1108/MD-05-2017-0458}.}
+{Extract in "A combined compromise solution (CoCoSo) method for multi-criteria decision-making problems", Yazdani, M., Zarate, P., Kazimieras Zavadskas, E., & Turskis, Z. (2019).}
 }
 \usage{
 example_cocoso
