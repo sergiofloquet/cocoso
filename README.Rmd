@@ -22,7 +22,7 @@ This program is an implementation of the Combined Compromise Solution (CoCoSo) M
 
 ## Installation
 
-You can install the development version of cocosoR from [GitHub](https://github.com/) with:
+You can install the development version of cocosoR from [GitHub] <https://github.com/sergiofloquet/cocosoR> with:
 
 ``` r
 # install.packages("devtools")
@@ -52,7 +52,7 @@ result
 ```
 
 
-In addition we present in results all three aggregation strategies and the sum and product weight, used in [1].
+In addition we present in results all three aggregation strategies and the sum and product weight, used in [1]. A online implementations of CoCoSo method can be found in <https://sergiofloquet.shinyapps.io/cocoso/>.
 
 
 
